@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Calculator Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simple Calculator</h1>
+        <hr style="border: 3px solid black; width: 30%; margin-left:35%; margin-right:35%; margin-top: 0%;">
+        <div class="cal">
+            <form id="myform" name="calc">
+                <input name="display" id="searchbox"><br>
+                <input type="button" value="7" onclick="calc.display.value+='7'" id="mybtn"></input>
+                <input type="button" value="8" onclick="calc.display.value+='8'" id="mybtn"></input>
+                <input type="button" value="9" onclick="calc.display.value+='9'" id="mybtn"></input>
+                <input type="button" value="&#247" onclick="calc.display.value+='/'" id="mybtn"></input><br>
+                <input type="button" value="4" onclick="calc.display.value+='4'" id="mybtn"></input>
+                <input type="button" value="5" onclick="calc.display.value+='5'" id="mybtn"></input>
+                <input type="button" value="6" onclick="calc.display.value+='6'" id="mybtn"></input>
+                <input type="button" value="X" onclick="calc.display.value+='*'" id="mybtn"></input><br>
+                <input type="button" value="1" onclick="calc.display.value+='1'" id="mybtn"></input>
+                <input type="button" value="2" onclick="calc.display.value+='2'" id="mybtn"></input>
+                <input type="button" value="3" onclick="calc.display.value+='3'" id="mybtn"></input>
+                <input type="button" value="-" onclick="calc.display.value+='-'" id="mybtn"></input><br>
+                <input type="button" value="0" onclick="calc.display.value+='0'" id="mybtn"></input>
+                <input type="button" value="C" onclick="calc.display.value=' '" id="mybtn"></input>
+                <input type="button" value="=" onclick="calc.display.value=eval(calc.display.value)" id="mybtn"></input>
+                <input type="button" value="+" onclick="calc.display.value+='+'" id="mybtn"></input>
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="myscripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 30%;
+	left: 35%;	
+	transform: translate (-50%,-50%)
+}
+
+h1{
+    color: rgb(22, 105, 230);
+    font-size: 3rem;
+    margin-bottom: 3px;
+}
+
+#searchbox{
+    background-color: rgb(126, 155, 235);
+    border-radius: 5px;
+    text-align: center;
+    height: 20px;
+    width: 350px;
+    padding: 15px 35px;
+    margin-top: 5px;
+    font-size: 1.8rem;
+    
+}
+#mybtn{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 10px;
+    padding: 15px 35px;
+    border: 2px solid rgb(11, 14, 196);
+    border-radius: 8px;
+    background-color:rgb(218, 206, 206);
+    color:black;
+    cursor: pointer;
+    
+}
